@@ -16,3 +16,7 @@ number of clicks,
 total conversion value.
 
 To accomplish this task, I grouped the table by the fields ad_date, media_source, campaign_name, and adset_name.
+
+4. By combining data from four tables, I identified the campaign with the highest ROMI among all campaigns with a total spend of more than 500,000.
+
+5. Within this campaign, I identified the ad set (adset_name) with the highest ROMI.
