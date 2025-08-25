@@ -7,28 +7,28 @@ This repository contains **data analytics projects** I created to practice and d
 
 📈 **Рекомендовані проекти**  
 🔹 **SQL та BigQuery**  
-- 📌 [Conversion Analysis by Date & Traffic Channel (Medium)](https://github.com/TETIANA-TR/SQL/commit/2ed726f5f7e5d7568e1fdab4e26040ec835120ca)  
-- 📌 [Landing Page Conversion Comparison (Medium+)](https://github.com/TETIANA-TR/SQL/commit/2007c25a3bddeaf24763cfb54d4c4ca198c8b329)  
-- 📌 [Engagement vs Purchase Correlation (Hard)](https://github.com/TETIANA-TR/SQL/commit/05f195d825898e558ebd957c6410b9f303c94bcf)  
+- 📌 [Conversion Analysis by Date & Traffic Channel](https://github.com/TETIANA-TR/SQL/commit/2ed726f5f7e5d7568e1fdab4e26040ec835120ca)  
+- 📌 [Landing Page Conversion Comparison](https://github.com/TETIANA-TR/SQL/commit/2007c25a3bddeaf24763cfb54d4c4ca198c8b329)  
+- 📌 [Engagement vs Purchase Correlation](https://github.com/TETIANA-TR/SQL/commit/05f195d825898e558ebd957c6410b9f303c94bcf)  
 - 📌 [Marketing Campaign ROMI Analysis](https://github.com/TETIANA-TR/SQL/commit/7d862aec9247f2d369611d7a19a3cb2083dfdd6a)
 
 ---
 
 ## 🔹 Projects Details
 
-### 1. Conversion Analysis by Date & Traffic Channel (Medium)
+### 1. Conversion Analysis by Date & Traffic Channel
 - **Description:** SQL query for a table tracking conversions from session start to purchase.  
 - **Metrics:** user_sessions_count, visit_to_cart, visit_to_checkout, visit_to_purchase  
 
 ---
 
-### 2. Landing Page Conversion Comparison (Medium+)
+### 2. Landing Page Conversion Comparison
 - **Description:** Compare the performance of different landing pages.  
 - **Metrics:** number of unique sessions, purchases, conversion rates (for 2020)  
 
 ---
 
-### 3. Engagement vs Purchase Correlation (Hard)
+### 3. Engagement vs Purchase Correlation
 - **Description:** Analyze user engagement per session, total activity time, and purchase occurrence.  
 - **Metrics:** engagement metrics, correlation coefficient  
 
