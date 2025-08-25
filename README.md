@@ -1,22 +1,50 @@
-1. In the SQL query in the CTE, I combined data from the facebook_ads_basic_daily, facebook_adset and facebook_campaign tables using a LEFT JOIN to get a table that will contain:
-- ad_date - the date the ad was shown on Facebook
-- campaign_name - the name of the campaign on Facebook
-- adset_name - the name of the ad set on Facebook
-- spend, impressions, reach, clicks, leads, value  - campaign and ad set metrics on the corresponding days.
-2. Using UNION ALL, combined data from the google_ads_basic_daily table and the first CTE to get a single table with information about Facebook and Google marketing campaigns.
-3. Similarly to the previous task, from the resulting combined table (CTE), I selected:
-- ad_date - date of advertisement display
-- media_source - name of the procurement source (Google Ads / Facebook Ads) - I created this column myself
-- campaign_name - campaign name
-- adset_name - ad set name
-- values ​​aggregated by date and campaign and ad set name for the following indicators:
-total cost,
-number of impressions,
-number of clicks,
-total conversion value.
+# SQL Projects by Tetiana Trotska 👩‍💻
 
-To accomplish this task, I grouped the table by the fields ad_date, media_source, campaign_name, and adset_name.
+Welcome to my SQL repository!  
+This repository contains **data analytics projects** I created to practice and demonstrate my skills in **SQL, BigQuery, and data analysis**.
 
-4. By combining data from four tables, I identified the campaign with the highest ROMI among all campaigns with a total spend of more than 500,000.
+---
 
-5. Within this campaign, I identified the ad set (adset_name) with the highest ROMI.
+## 🔹 Projects
+
+### 1. Conversion Analysis by Date & Traffic Channel (Medium)
+- **Description:** SQL query for a table tracking conversions from session start to purchase.  
+- **Metrics:** user_sessions_count, visit_to_cart, visit_to_checkout, visit_to_purchase  
+- **SQL file:** [Conversion Analysis SQL](https://github.com/TETIANA-TR/SQL/commit/2ed726f5f7e5d7568e1fdab4e26040ec835120ca)
+
+---
+
+### 2. Landing Page Conversion Comparison (Medium+)
+- **Description:** Compare the performance of different landing pages.  
+- **Metrics:** number of unique sessions, purchases, conversion rates (for 2020)  
+- **SQL file:** [Landing Page SQL](https://github.com/TETIANA-TR/SQL/commit/2007c25a3bddeaf24763cfb54d4c4ca198c8b329)
+
+---
+
+### 3. Engagement vs Purchase Correlation (Hard)
+- **Description:** Analyze user engagement per session, total activity time, and purchase occurrence.  
+- **Metrics:** engagement metrics, correlation coefficient  
+- **SQL file:** [Engagement vs Purchase SQL](https://github.com/TETIANA-TR/SQL/commit/05f195d825898e558ebd957c6410b9f303c94bcf)
+
+---
+
+### 4. Marketing Campaign ROMI Analysis
+- **Description:** Combined data from **Facebook Ads** and **Google Ads** using CTEs, LEFT JOIN, and UNION ALL to calculate campaign performance.  
+- **Tasks performed:**  
+  - Aggregated metrics: spend, impressions, clicks, conversion value  
+  - Grouped by date, media_source, campaign, and ad set  
+  - Identified **highest ROMI campaign** and ad set with total spend > 500,000  
+- **SQL file:** [Marketing Campaign SQL](https://github.com/TETIANA-TR/SQL/blob/main/Project%20SQL.sql)
+
+---
+
+## 🧰 Skills Practiced
+- SQL: SELECT, JOIN, CTE, UNION ALL, GROUP BY, aggregation functions  
+- Data analysis: conversion tracking, correlation, marketing ROI calculation  
+- Data preparation for BI tools: Looker Studio, Tableau  
+
+---
+
+## 🌟 Notes
+All SQL scripts are **safe to run** on sample or anonymized datasets.  
+Feel free to explore, learn, and reuse queries for educational purposes!
