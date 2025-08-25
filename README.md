@@ -10,7 +10,7 @@ This repository contains **data analytics projects** I created to practice and d
 ### 1. Conversion Analysis by Date & Traffic Channel (Medium)
 - **Description:** SQL query for a table tracking conversions from session start to purchase.  
 - **Metrics:** user_sessions_count, visit_to_cart, visit_to_checkout, visit_to_purchase  
-- **SQL file:** [Conversion Analysis SQL](https://github.com/TETIANA-TR/SQL/commit/7d862aec9247f2d369611d7a19a3cb2083dfdd6a)
+- **SQL file:** [Conversion Analysis SQL](https://github.com/TETIANA-TR/SQL/blob/main/conversion_analysis.sql)
 
 ---
 
@@ -34,7 +34,7 @@ This repository contains **data analytics projects** I created to practice and d
   - Aggregated metrics: spend, impressions, clicks, conversion value  
   - Grouped by date, media_source, campaign, and ad set  
   - Identified **highest ROMI campaign** and ad set with total spend > 500,000  
-- **SQL file:** [Marketing Campaign SQL](https://github.com/TETIANA-TR/SQL/blob/main/Project%20SQL.sql)
+- **SQL file:** [ROMI Analysis SQL](https://github.com/TETIANA-TR/SQL/blob/main/ROMI%20analysis%20of%20a%20marketing%20campaign.sql)
 
 ---
 
