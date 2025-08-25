@@ -7,10 +7,10 @@ This repository contains **data analytics projects** I created to practice and d
 
 📈 **Рекомендовані проекти**  
 🔹 **SQL та BigQuery**  
-- 📌 [Аналіз конверсій за датою та каналом трафіку (середній)](https://github.com/TETIANA-TR/SQL/commit/2ed726f5f7e5d7568e1fdab4e26040ec835120ca)  
-- 📌 [Порівняння конверсій цільових сторінок (середній+)](https://github.com/TETIANA-TR/SQL/commit/2007c25a3bddeaf24763cfb54d4c4ca198c8b329)  
-- 📌 [Кореляція залученості та покупки (жорстка)](https://github.com/TETIANA-TR/SQL/commit/05f195d825898e558ebd957c6410b9f303c94bcf)  
-- 📌 [Аналіз ROMI маркетингової кампанії](https://github.com/TETIANA-TR/SQL/commit/7d862aec9247f2d369611d7a19a3cb2083dfdd6a)
+- 📌 [Conversion Analysis by Date & Traffic Channel (Medium)](https://github.com/TETIANA-TR/SQL/commit/2ed726f5f7e5d7568e1fdab4e26040ec835120ca)  
+- 📌 [Landing Page Conversion Comparison (Medium+)](https://github.com/TETIANA-TR/SQL/commit/2007c25a3bddeaf24763cfb54d4c4ca198c8b329)  
+- 📌 [Engagement vs Purchase Correlation (Hard)](https://github.com/TETIANA-TR/SQL/commit/05f195d825898e558ebd957c6410b9f303c94bcf)  
+- 📌 [Marketing Campaign ROMI Analysis](https://github.com/TETIANA-TR/SQL/commit/7d862aec9247f2d369611d7a19a3cb2083dfdd6a)
 
 ---
 
