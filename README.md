@@ -10,7 +10,7 @@ This repository contains **data analytics projects** I created to practice and d
 ### 1. Conversion Analysis by Date & Traffic Channel (Medium)
 - **Description:** SQL query for a table tracking conversions from session start to purchase.  
 - **Metrics:** user_sessions_count, visit_to_cart, visit_to_checkout, visit_to_purchase  
-- **SQL file:** [Conversion Analysis SQL](https://github.com/TETIANA-TR/SQL/commit/2ed726f5f7e5d7568e1fdab4e26040ec835120ca)
+- **SQL file:** [Conversion Analysis SQL](https://github.com/TETIANA-TR/SQL/commit/7d862aec9247f2d369611d7a19a3cb2083dfdd6a)
 
 ---
 
