@@ -1,5 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=soft&color=0:FFD700,100:1E90FF&height=200&section=header&text=Hi%2C%20I'm%20Tetiana%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn)
-
 # SQL Projects by Tetiana Trotska 👩‍💻
 
 Welcome to my SQL repository!  
